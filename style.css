@@ -1,0 +1,234 @@
+body{
+    font-family: sans-serif;
+    background-color: #262629;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    line-height: 1.5;
+}
+#showcase{
+    margin: 0;
+    padding: 0;
+    background: url(https://picstatio.com/download/1920x1200/k9ofxu/guitar-man-music-dark.jpg) no-repeat center /cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+}
+#showcase .overly{
+    background-color: rgba(22, 21, 24, 0.4);
+    height: 100vh;
+    display: flex;
+    justify-content:start;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#showcase .container{
+   margin-top: 25vh; 
+  
+}
+#showcase h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+#showcase h2{
+    font-size:2rem ;
+}
+#showcase p{
+    font-size: 1.3rem;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 rem;
+    text-align: center;
+}
+nav{
+height: 40px;
+width: 100%;
+background-color: dimgrey;
+color: #ffff;
+position: fixed;
+z-index: 20;
+}
+.nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    float: 100px;
+}
+nav a{
+    display: inline-block;
+    width: 100px;
+    text-align: center; 
+    text-decoration: none;
+    padding: 1px 0;
+    color: #fff;
+}
+nav li:hover{
+    background-color: #4444;
+}
+
+
+
+#section{
+    padding-top: 30px;
+}
+#section h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+#section h2{
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+.section p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+#main-section a.btn{
+    
+    background-color:darkred;
+    display: inline-block;
+    padding: 15px 15px;
+    border-radius: 3px;
+    font-size: 1rem;
+     border: none;
+     color: #f4f4f4;
+    margin-bottom: 10px;  
+}
+
+#section a.btn:hover{
+    background-color:darkred;
+}
+section .mf{
+    font-size: 17px;
+    text-align: center;
+}
+#main-section img{
+    width: 100%;
+}
+#sec-section{
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 40px 0;
+}
+.sec-section h3{
+    text-align: center;
+    font-size: 1.8rem;
+}
+#sec-section p{
+    font-size: 1.3rem;
+}
+#sec-section a.btn{
+    background-color: blue;
+    display: inline-block;
+    padding: 15px 15px;
+    color: #ffff;
+    border-radius: 3px;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 10px;
+}
+#sec-section a.btn:hover{
+    background-color: #143f85;
+}
+#sec-section img{
+    width: 100%;
+}
+
+#third-section{
+    padding: 40px 0;
+    background-color: #f4f4f4;
+    background: url(section-bg.jpeg); 
+    height: 500px;
+    margin: 0;
+    z-index: -1;
+}
+
+#third-section h3{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 30vh;
+}
+
+#third-section p{
+    font-size: 1.4rem;
+}
+
+#gift-card{
+    background-color: white;
+    color:darkblue;
+    padding: 30px 0;
+
+
+}
+#gift-card img{
+    width: 100%;
+}
+.gift-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align:left;
+    grid-gap:20px;
+
+}
+.gift-card i{
+    text-decoration: none;
+}
+#gift-card h2{
+    font-size: 1.4rem;
+    text-align: left;
+}
+#gift-card p{
+    text-align: left;
+    font-size: 1rem;
+}
+#gift-card a{
+    text-decoration: none;
+    color:blue;
+}
+footer .footer-cols{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+footer .footer-cols ul li:first-child{
+    font-size: 1.5rem;
+    text-align: left;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+footer .footer-cols ul li{
+    padding: 4px;
+    list-style: none;
+    text-align: left;
+    font-size: 0.8rem;
+    color: #eee;
+}
+footer .footer-cols ul li a{
+    color: #ccc;
+    text-decoration: none;
+}
+footer .footer-cols ul li hr{
+    color: #4444;
+}
+footer .footer-botton{
+    text-align: center;
+    background-color: rgba(240, 238, 247, 0.11);
+    padding: 15px;
+    font-size: 25px;
+    color: #f3ededcc;
+}
+ 
